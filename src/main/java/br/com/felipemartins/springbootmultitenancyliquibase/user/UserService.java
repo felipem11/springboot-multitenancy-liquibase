@@ -1,0 +1,15 @@
+package br.com.felipemartins.springbootmultitenancyliquibase.user;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+/**
+ * @author <a href="felipemartins.github.io" target="_blank">Felipe Martins</a>
+ * @date 12/01/2022 02:03
+ **/
+public interface UserService {
+
+    User save(User user);
+
+    Page<User> findAll(Pageable pageable);
+}

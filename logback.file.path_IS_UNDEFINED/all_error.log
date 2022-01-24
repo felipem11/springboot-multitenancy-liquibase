@@ -1,0 +1,104 @@
+2022-01-22 17:04:24.758 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.PropertyAction - Could not find resource [logback.properties].
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@5bbc075c - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@1451df57 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@6b0c5ea0 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@500d25fd - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@6b304e47 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@71019f11 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@78f136cf - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at SpringbootMultiTenancyLiquibaseApplication.main(SpringbootMultiTenancyLiquibaseApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-01-22 17:05:13.524 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.PropertyAction - Could not find resource [logback.properties].
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@10f39f37 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4ac1c08c - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2ef0234b - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@189d5959 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@149b675a - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@509a10e5 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@7f5f8bc6 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at SpringbootMultiTenancyLiquibaseApplication.main(SpringbootMultiTenancyLiquibaseApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-01-22 17:05:55.192 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@1e5fd8fc - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@626f3992 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@288a6615 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2a1f0678 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4ae7b3ff - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@515fa098 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@2a1ece68 - Failed to get charset [char_set_IS_UNDEFINED] java.nio.charset.UnsupportedCharsetException: char_set_IS_UNDEFINED
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at SpringbootMultiTenancyLiquibaseApplication.main(SpringbootMultiTenancyLiquibaseApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
